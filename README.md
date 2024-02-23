@@ -1,2 +1,3 @@
 # CodeCanva-Portfolio
-This is my Portfolio.
+This is my Portfolio.The frontend technology stack used in this code includes HTML for structure, CSS for styling, and JavaScript for interactivity. 
+The provided HTML code is for a personal portfolio website, showcasing the skills and achievements of a web developer and UI designer. It features sections for introduction, about, education, leadership roles, skills, and a footer with social media links. Notably, the header remains hidden initially and is revealed as the user scrolls to the "About" section. Clicking on the header image or text scrolls the page to the top, and clicking on the footer images directs users to the respective social media profiles in new tabs.
