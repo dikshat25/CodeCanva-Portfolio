@@ -1,0 +1,230 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.profileImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 80px;
+}
+
+.imgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+marquee {
+    margin-bottom: 50px;
+}
+
+.page1,
+.page2,
+.whole {
+    min-height: fit-content;
+    margin-bottom: 200px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 200px;
+}
+
+.aboutme {
+    text-align: center;
+    font-size: 45px;
+    color: blueviolet;
+}
+
+.fullpiccontainer {
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.fullpic {
+    height: 400px;
+    width: 500x;
+    margin-top: 40px;
+}
+
+.intropara {
+    text-align: left;
+    font-size: 25px;
+}
+
+.imgTextContainer {
+    display: flex;
+    gap: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.tabletwo {
+    flex-grow: 1;
+}
+
+.tableone {
+    flex-grow: 1;
+}
+
+.whole {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 40px;
+}
+
+.education {
+    column-span: 1;
+}
+
+.responsibility {
+    column-span: 1;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    column-span: 1;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+}
+
+.skill {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-style: bold;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.progress {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.skillTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.page1 {
+    background-image: url("/Images/BgMain.jpg");
+    background-size: cover;
+}
+
+.page4 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+li {
+    font-size: 24px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIconsContainer {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footerIcons {
+    width: 40px;
+    height: 40px;
+}
+
+.footerText {
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    height: 100px;
+    background-color: blueviolet;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+}
+
+.headerImgPic{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.headertext {
+    color: white;
+    font-size: 20px;
+}
+
+.headerImg{
+    height: 80px;
+    border-radius: 100%;
+}
+
+.hidden {
+    display: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .whole,
+    .skills {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        /* Change to 1 column on smaller screens */
+    }
+
+    .fullpiccontainer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imgTextContainer {
+        flex-direction: column;
+    }
+}

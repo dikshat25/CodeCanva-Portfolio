@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css" />
+</head>
+
+<body>
+    <header>
+        <div class="headerImgPic">
+            <img src="/Images/Diksha.jpg" class="headerImg" />
+            <p class="headerText">Diksha Thongire</p>
+        </div>
+    </header>
+
+    <div class="page1">
+        <div class="imgContainer">
+            <img src="/Images/Diksha.jpg" class="profileImg" />
+        </div>
+        <div class="intro">
+            <h3>I'm</h3>
+            <h1><b>Diksha Thongire</b></h1>
+            <h4>
+                <marquee>Web Developer , Front End Developer , Web Designer</marquee>
+            </h4>
+        </div>
+    </div>
+    <div class="page2">
+        <div class="aboutme">
+            <h2>ABOUT ME</h2>
+        </div>
+        <div class="imgTextContainer">
+            <div class="fullpiccontainer">
+                <img src="/Images/full.jpg" class="fullpic" />
+            </div>
+            <div class="intropara">
+                <h2><b>UI Designer and Web Developer</b></h2>
+                Hello, I'm excited to begin my journey in computer science at VJTI. With a passion for problem-solving,
+                I look forward to delving into programming, algorithms, and software engineering. I believe VJTI's
+                esteemed faculty and dynamic environment will nurture my skills and foster innovation. Eager to
+                collaborate with peers, I'm ready for the challenges and opportunities ahead.
+                <div class="table">
+                    <div class="tableone">
+                        <b>Name:</b> Diksha Thongire<br /><br />
+                        <b>Degree:</b> First Year<br /><br />
+                        <b> Phone:</b> 78347 47839<br />
+                    </div>
+                    <div class="tabletwo">
+                        <b> Address:</b> Thane<br /><br />
+                        <b>Email:</b> dthongire@gmail.com<br /><br />
+                        <b>Freelance:</b> Available<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="whole">
+        <div class="education">
+            <h1 class="aboutme">EDUCATION</h1>
+            <ul type="disk">
+                <li>
+                    <p><b>Veermata Jijabai Technological Institue(VJTI),Matunga</b></p>
+                    <p>Btech</p>
+                    <p>2023-Present</p>
+                </li>
+                <li>
+                    <p><b>People's Education Society JUnior College</b></p>
+                    <p>HSC - Score: 86.3%</p>
+                    <p>2021-2023</p>
+                </li>
+                <li>
+                    <p><b>Vasant Vihar High School And Junior College</b></p>
+                    <p>SSC - Score: 93.6%</p>
+                    <p>2009-2021</p>
+                </li>
+            </ul>
+        </div>
+        <div class="responsibilty">
+            <h1 class="aboutme">LEADERSHIP ROLES</h1>
+            <ul type="disk">
+                <li>
+                    <p><b>Event Organizer</b></p>
+                    <p>Rangawardhan Cultural Fest</p>
+                    <p>7th, 8th, 9th January 2024</p>
+                </li>
+                <li>
+                    <p><b>Swimming Event Cordinator</b></p>
+                    <p>Enthusia Sports Fest</p>
+                    <p>11th to 20th February 2024</p>
+                </li>
+                <li>
+                    <p><b>Designer in FIne Arts</b></p>
+                    <p>DLA Litfest</p>
+                    <p>2nd and 3rd January 2024</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page4">
+        <h1 class="aboutme"><b>SKILLS</b></h1>
+        <div class="skills">
+            <div class="skill">
+                <div class="name">C++</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%; background-color: purple;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">HTML</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 95%; background-color: red;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">CSS</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;background-color: yellow"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">Python</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 70%; background-color: green;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">Java</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%; background-color: blue;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="name">C</div>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 75%; background-color: pink;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerIconsContainer">
+            <img src="/Images/github-mark-white.png" class="footerIcons" />
+            <img src="/Images/In-White-128.png" class="footerIcons" />
+        </div>
+        <p class="footerText">© Portfolio. All Rights Reserved. Designed by Diksha Thongire</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            var page2 = document.querySelector('.page2');
+
+            if (window.scrollY > page2.offsetTop) {
+                header.style.display = 'block';
+            } else {
+                header.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
