@@ -139,8 +139,12 @@
     </div>
     <footer>
         <div class="footerIconsContainer">
-            <img src="/Images/github-mark-white.png" class="footerIcons" />
-            <img src="/Images/In-White-128.png" class="footerIcons" />
+            <a href="https://github.com" target="_blank">
+                <img src="/Images/github-mark-white.png" class="footerIcons" />
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+                <img src="/Images/In-White-128.png" class="footerIcons" />
+            </a>
         </div>
         <p class="footerText">© Portfolio. All Rights Reserved. Designed by Diksha Thongire</p>
     </footer>
@@ -155,6 +159,13 @@
             } else {
                 header.style.display = 'none';
             }
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const headerImgPic = document.querySelector('.headerImgPic');
+            headerImgPic.addEventListener('click', function () {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
         });
     </script>
 </body>
