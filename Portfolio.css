@@ -139,7 +139,7 @@ marquee {
 }
 
 .page1 {
-    background-image: url("/Images/BgMain.jpg");
+    background-image: url("images/BgMain.jpg");
     background-size: cover;
 }
 
